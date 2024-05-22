@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Trang chủ</title>
+
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body style="overflow: hidden;">
+   
+<!-- header section starts  -->
+
+<header class="header" data-aos="fade-down">
+
+   <section class="flex">
+
+      <a href="home.html" class="logo">Đi&Go.</a>
+
+      <nav class="navbar">
+         <a href="home.html">Trang chủ</a>
+         <a href="about.html">Giới thiệu</a>
+         <a href="tours.html">Đặt lịck</a>
+         <a href="destinations.html">Địa điểm</a>
+         <a href="contact.html">Liên hệ</a>
+      </nav>
+
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+   </section>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<div class="container home" data-aos="zoom-out">
+
+   <section class="flex" data-aos="zoom-in" data-aos-delay="600">
+
+      <form action="" method="post">
+         <h3>Tìm chuyến đi</h3>
+         <p>Điểm đến</p>
+         <input type="text" name="location" required maxlength="50" placeholder="nhập địa điểm đến" class="box">
+         <p>Thời gian</p>
+         <input type="date" name="date" class="box" required>
+         <p>Số lượng</p>
+         <input type="number" name="guests" min="1" max="10" maxlength="2" placeholder="số lượng khách" required class="box">
+         <input type="submit" value="Tìm kiếm" name="search" class="btn">
+      </form>
+
+   </section>
+
+</div>
+
+<!-- home section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
